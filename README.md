@@ -16,7 +16,7 @@ allows image to be auto-loaded into code
 - imageMode(CENTER) = centre image to page
 ### Full code to bring image into centre of page
 	imageMode(CENTER);
-	image(img, x, y, width/2, height/2, 100, 100);
+	image(img, width/2, height/2, 100, 100);
  
 ## Filters
 	filter(GRAY or INVERSE)
