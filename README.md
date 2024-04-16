@@ -25,7 +25,7 @@ allows image to be auto-loaded into code
 
 ## Arrays
 	let num = 5 will store one number
-	let nums = [3, 5, 20, 5]stores multiple values with an index number within the array from 0 onwards that can be used in text e.g.
+	let nums = [3, 7, 20, 5]stores multiple values with an index number within the array from 0 onwards that can be used in text e.g.
 	rect(100, 100, nums[4], 60) will produce a rectangle with a height of 5
 - Strings = same as arrays but using text
 	let names = ["sarah", "james", "kim", "olga"]
