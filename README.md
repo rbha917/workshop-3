@@ -1,6 +1,6 @@
 # workshop-3
 
-### Link to sketch: 
+### Link to sketch: https://rbha917.github.io/workshop-3/
 
 ## Images
 - Make a folder under explorer for images
@@ -28,20 +28,25 @@ allows image to be auto-loaded into code
 	let nums = [3, 7, 20, 5]stores multiple values with an index number within the array from 0 onwards that can be used in text e.g.
 	rect(100, 100, nums[4], 60) will produce a rectangle with a height of 5
 - Strings = same as arrays but using text
-	let names = ["sarah", "james", "kim", "olga"]
-	text(names[2], x, y) = print name in specified position
+
+let names = ["sarah", "james", "kim", "olga"]
+text(names[2], x, y) = print name in specified position
+
 - Images in an Array
-	let imgs = []
-	let apples, bananas, pears;
-	preload images
-	apples = loadImage('images/apples.jpg')
-- under setup 
-	imgs.push(apples) adds an image to the end of an array in order so apples would be 0 and so on
-	frameRate(1) = how many times the drawing runs per second, so each one will run once in a second
+
+let imgs = []
+let apples, bananas, pears;
+preload images
+apples = loadImage('images/apples.jpg')
+- under setup
+
+imgs.push(apples) adds an image to the end of an array in order so apples would be 0 and so on
+frameRate(1) = how many times the drawing runs per second, so each one will run once in a second
 - under draw
-	image(imgs[2], 0, 0) 
-	let r = random(imgs) will draw random images from the array
-	image(r, 0, 0) = run thru the images randomly
+  
+image(imgs[2], 0, 0) 
+let r = random(imgs) will draw random images from the array
+image(r, 0, 0) = run thru the images randomly
 
 ## Pixels
 - Equation to find values of a given pixel on the screen
