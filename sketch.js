@@ -2,14 +2,14 @@ let imgs = []
 let lily, lotus, hibiscus, rose, tulip, daffodil, carnation, lavender;
 
 function preload() {
-  lily = loadImage('images/lily.jpg');
-  lotus = loadImage('images/lotus.jpg');
-  hibiscus = loadImage('images/hibiscus.jpg');
-  rose = loadImage('images/rose.jpg');
-  tulip = loadImage('images/tulip.jpg');
-  daffodil = loadImage('images/daffodil.jpg');
-  carnation = loadImage('images/carnation.jpg');
-  lavender = loadImage('images/lavender.jpg');
+  lily = loadImage('lily.jpg');
+  lotus = loadImage('lotus.jpg');
+  hibiscus = loadImage('hibiscus.jpg');
+  rose = loadImage('rose.jpg');
+  tulip = loadImage('tulip.jpg');
+  daffodil = loadImage('daffodil.jpg');
+  carnation = loadImage('carnation.jpg');
+  lavender = loadImage('lavender.jpg');
 }
 
 function setup() {
